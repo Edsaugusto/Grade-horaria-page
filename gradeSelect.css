@@ -1,4 +1,36 @@
-
+body{
+    background: darkgray;
+}
+nav{
+    display: block;
+    background: gray;
+    width: 100%;
+    height: 80%;
+    float: right;
+}
+.listHeader{
+    display: flex;
+    /*border: 1px solid black;*/
+    width: 15%;
+    margin-left: auto;
+}
+.botNavegation{
+    display: inline;
+    font-size: 110%;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 2%;
+    padding: 0.5%;
+    /*border: 1px solid black;*/
+    margin: 2%;
+    margin-left: auto;
+}
+a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color:  darkturquoise;
+    padding: 8px;
+}
 thead{
     background: #555;
     color: white;
@@ -6,10 +38,32 @@ thead{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 th,td{
-    border: 1px solid black;
-    padding: 8px 15px;
+    border: 1px solid gray;
+    padding: 3px;
+    color: darkturquoise;
 }
 select{
     width: 150px;
     border: none;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tituloGrade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid gray;
+    color: darkturquoise;
+    background: #555;
+    border-radius: 2px;
+    padding: 15px;
+}
+.fundo{
+    background: #555;
+    font-weight: bold;
 }
